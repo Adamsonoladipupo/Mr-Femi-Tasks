@@ -1,3 +1,5 @@
+cart = []
+
 def get_cart(cart):
 	cart = []
 	return cart

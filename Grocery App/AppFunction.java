@@ -3,4 +3,11 @@ public class AppFunction{
 		return 0;
 		
 	}
+	public String AddItems(String userInput){
+
+	}
+
+	public String RemoveItems(String userInput){
+
+	}
 }
