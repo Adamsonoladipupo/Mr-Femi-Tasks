@@ -1,11 +1,8 @@
 const prompt = require ("prompt-sync")({sigint:true});
 
-
-// sentences
 let word = "Innovation"
 let sentenseOne = "The progressive development of man is vitally dependent on innovation";
-let sentenseTwo = "Bests with thesame feathers flocks together";
-let sentenceThree = "Use consistent naming conventions across your project.";
+
 let userName = prompt("Enter your name: ");
 
 	const mainDisplay = `
@@ -47,9 +44,24 @@ while(userInput != 0){
 			const durationInMinutes = duration/ 60000
 			const wpm = 10/durationInMinutes;
 			
+
 			console.log("Time taken: ", duration/1000,"Seconds");
 			console.log("Words per minutes: ",wpm)
 			console.log("Accuracy: ",accuracy)
+
+/*
+
+			let finalResult = `
+	----------------------------------
+	Result				
+	----------------------------------
+	Time taken: ${duration/1000}seconds
+	Words per minutes: ${wpm}
+	Accuracy: ${accuracy}
+	----------------------------------
+			`;
+			console.log(finalResult);
+*/
 			break;
 		}
 		case "0": {
